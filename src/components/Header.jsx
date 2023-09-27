@@ -7,11 +7,12 @@ const Header = () => {
     <HStack
      p={'4'}
      shadow={'base'}
-     bgColor={'blackAlpha.900'}
+     bgColor={'red.900'}
     >
         <Button
          variant={'unstyled'}
          color={'white'}
+         p={'2'}
         >
             <Link to={'/'}>Home</Link>
         </Button>
@@ -19,6 +20,7 @@ const Header = () => {
         <Button
          variant={'unstyled'}
          color={'white'}
+         p={'2'}
         >
             <Link to={'/exchanges'}>Exchanges</Link>
         </Button>
@@ -26,6 +28,7 @@ const Header = () => {
         <Button
          variant={'unstyled'}
          color={'white'}
+         p={'2'}
         >
             <Link to={'/Coins'}>Coins</Link>
         </Button>
